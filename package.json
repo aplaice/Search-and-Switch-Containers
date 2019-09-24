@@ -37,5 +37,14 @@
   "bugs": {
     "url": "https://github.com/andreicristianpetcu/Search-and-Switch-Containers/issues"
   },
-  "homepage": "https://github.com/andreicristianpetcu/Search-and-Switch-Containers#readme"
+  "homepage": "https://github.com/andreicristianpetcu/Search-and-Switch-Containers#readme",
+  "webExt" : {
+    "ignoreFiles": [
+      "karma.conf.js",
+      "test/",
+      "test/*",
+      "package.json",
+      "package-lock.json"
+    ]
+  }
 }
